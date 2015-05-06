@@ -8,7 +8,7 @@ that it is inheriting from.
 
 All of the built-in profiles can be found in the BuiltinProfiles.documentationONLY.xml file.
 -->
-<?xml version="1.0"?>
+
 <dds xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/rti_dds_profiles.xsd" version="5.1.0">
     <!-- Qos Library -->
     <qos_library name="RTIUserQosLib">
