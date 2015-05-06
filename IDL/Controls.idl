@@ -1,0 +1,24 @@
+module system
+{
+	module controls
+	{
+		enum EControlStateRequestStatus
+		{
+			REQUESTED,
+			DENIED,
+			PROCESSING,
+			SUCCEEDED,
+			FAILED
+		};
+	
+		struct TControlState
+		{
+			long requestId; //@key
+			EControlStateRequestStatus status;
+
+			// Normalized -1.0 to 1.0
+			float leftMotor;	
+			float rightMotor;
+		};
+	};
+};
